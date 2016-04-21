@@ -12,4 +12,4 @@ app.get('/', function(req, res){
   res.send(obj);
 });
 
-app.listen(8000);
+app.listen(process.env.PORT || 8080);
